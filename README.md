@@ -2,7 +2,7 @@
 
 Python script to recover Docker file from an image.
 
-Needs `python-py` to run.
+Needs `docker-py` to run.
 
 ```
 virtualenv -p python venv
