@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python2
 
 # Reverse engineering Dockerfile from docker history
 # Pretty prints docker history
