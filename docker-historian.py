@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 # Reverse engineering Dockerfile from docker history
 # Pretty prints docker history
@@ -9,7 +9,7 @@ from docker import Client
 
 class ImageNotFound(Exception):
     def __init__(self,e):
-        print e
+        print(e)
         sys.exit(1)
 
 class MainObj(object):
