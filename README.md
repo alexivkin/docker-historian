@@ -6,16 +6,13 @@ Python script to recover Docker file from an image.
 
 Install `docker-py` to run.
 
-```
+``` bash
 virtualenv -p python venv
 . venv/bin/activate
 pip install -r requirements.txt
-
-Then
-
 ```
-./docker-historian.py [image name]
-```
+
+Then `./docker-historian.py [image name]`
 
 You can use partial image names.
 
